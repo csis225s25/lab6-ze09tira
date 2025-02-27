@@ -3,10 +3,6 @@
  * with a custom drawing panel to display an artistic scene.
  * 
  * 
- * 
- * 
- * 
- * 
  * @author Zi'Aire Tirado
  * @version 02/27/2025
  */
@@ -53,13 +49,8 @@
  
  /**
   * ArtPanel class extends JPanel to provide custom painting.
-  * <p>
-  * The panel overrides the paintComponent method to draw an artistic scene
-  * using several Graphics methods and multiple colors.
-  * </p>
-  * 
-  * @author
-  * @version 2025-02-27
+  * @author Zi'Aire Tirado
+  * @version 02/27/2025
   */
  class ArtPanel extends JPanel {
  
@@ -76,9 +67,6 @@
  
      /**
       * Constructor for ArtPanel.
-      * <p>
-      * Sets the background color of the panel.
-      * </p>
       */
      public ArtPanel() {
          // Set the background color to simulate a clear sky.
@@ -87,11 +75,6 @@
  
      /**
       * Overrides the paintComponent method to perform custom drawing.
-      * <p>
-      * Uses several Graphics methods such as fillRect, fillPolygon, fillOval,
-      * drawArc, and drawLine to draw an artistic scene including a house, roof,
-      * door with a smile, windows, a sun, and a tree.
-      * </p>
       * 
       * @param g The Graphics context used for drawing
       */
